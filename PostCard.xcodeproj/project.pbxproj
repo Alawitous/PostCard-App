@@ -13,6 +13,8 @@
 		A7B9FFF01A6405F300FF1D34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7B9FFEE1A6405F300FF1D34 /* Main.storyboard */; };
 		A7B9FFF21A6405F300FF1D34 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7B9FFF11A6405F300FF1D34 /* Images.xcassets */; };
 		A7B9FFF51A6405F300FF1D34 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7B9FFF31A6405F300FF1D34 /* LaunchScreen.xib */; };
+		A7CA68391A640F7E008E65D7 /* SagradaFamilia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A7CA68381A640F7E008E65D7 /* SagradaFamilia.jpeg */; };
+		A7CA683B1A64155C008E65D7 /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7CA683A1A64155C008E65D7 /* AlbertEinsteinStamp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		A7B9FFF41A6405F300FF1D34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A7B9FFFA1A6405F300FF1D34 /* PostCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7B9FFFF1A6405F300FF1D34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7CA68381A640F7E008E65D7 /* SagradaFamilia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpeg; sourceTree = "<group>"; };
+		A7CA683A1A64155C008E65D7 /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		A7B9FFE81A6405F300FF1D34 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A7CA683A1A64155C008E65D7 /* AlbertEinsteinStamp.jpg */,
+				A7CA68381A640F7E008E65D7 /* SagradaFamilia.jpeg */,
 				A7B9FFE91A6405F300FF1D34 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +199,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7B9FFF01A6405F300FF1D34 /* Main.storyboard in Resources */,
+				A7CA68391A640F7E008E65D7 /* SagradaFamilia.jpeg in Resources */,
+				A7CA683B1A64155C008E65D7 /* AlbertEinsteinStamp.jpg in Resources */,
 				A7B9FFF51A6405F300FF1D34 /* LaunchScreen.xib in Resources */,
 				A7B9FFF21A6405F300FF1D34 /* Images.xcassets in Resources */,
 			);
@@ -398,6 +406,7 @@
 				A7B900061A6405F300FF1D34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7B900071A6405F300FF1D34 /* Build configuration list for PBXNativeTarget "PostCardTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +415,7 @@
 				A7B900091A6405F300FF1D34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7B9FFE01A6405F300FF1D34 /* Build configuration list for PBXProject "PostCard" */ = {
 			isa = XCConfigurationList;
